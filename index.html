@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Terrestrial planet</title>
+
+    </head>
+    <body>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+let planet1 = document.querySelector('.planet1');
+planet1.addEventListener('click', function() {
+    document.querySelector('#planet01').innerHTML = 'Mercury';
+});
+let planet2 = document.querySelector('.planet2');
+planet2.addEventListener('click', function() {
+    document.querySelector('#planet02').innerHTML = 'Venus';
+});
+let planet3 = document.querySelector('.planet3');
+planet3.addEventListener('click', function() {
+    document.querySelector('#planet03').innerHTML = 'Earth';
+});
+let planet4 = document.querySelector('.planet4');
+planet4.addEventListener('click', function() {
+    document.querySelector('#planet04').innerHTML = 'Mars';
+});
+});
+        </script>
+
+      <table>
+        <tr>
+          <th><a href="index.html">HOME</a></th>
+          <th><a href="Mercury.html">MERCURY</a></th>
+          <th><a href="Venus.html">VENUS</a></th>
+          <th><a href="Earth.html">EARTH</a></th>
+          <th><a href="Mars.html">MARS</a></th>
+          <th><a href="Question.html">QUESTION</a></th>
+        </tr>
+      </table>
+
+      <h1>Inner <span style="color:red">Solar System</span></h1>
+
+      <div class="alert alert-info">
+      <p><b><i>The inner part includes terrestrial planets and asteroids.
+        All of them consist mainly of silicates and metals.
+        This is a small part of the system - its radius is smaller than the distance between the orbits of Jupiter and Saturn.</i></b></p>
+      </div>
+
+      <h2>Inner planets - <span style="color:green">Terrestrial planet</span></h2>
+      <div class="alert alert-success">
+      <p><i>The four inner planets consist mainly of heavy elements, have few moons, and lack rings.
+        They are largely composed of refractory minerals such as silicates that form their mantle and crust, and metals (such as iron and nickel) that form their core.
+        The three inner planets—Venus, Earth, and Mars—have atmospheres; all have impact craters, surface tectonic features (such as rift depressions), and volcanoes.</i></p>
+      </div>
+
+      <h3 id="planet01"><button class="planet1">it's a planet</button></h3>
+      <div class="alert alert-light">
+      <p><i><u>The closest planet to the Sun in the Solar System.
+        It revolves around the Sun in 87.969 Earth days. It belongs to the inner planets because its orbit lies closer to the Sun than the asteroid belt.
+        After depriving Pluto of its planet status, It is the smallest planet in the Solar System.</u></i></p>
+
+        <p><i><u>It has an extremely rarefied atmosphere. It consists of atoms "knocked out" from the surface of the planet by the solar wind.
+          It's large iron core and thin crust have yet to be properly explained.
+          There is a hypothesis that suggests that the outer layers of the planet, composed of light elements, were torn off by a giant collision, which reduced the size of the planet and also prevented the complete absorption of it by the young Sun.</u></i></p>
+      </div>
+
+          <button class="planet"><a href="Mercury.html">go to planet</a></button>
+
+      <h3 id="planet02"><button class="planet2">it's a planet</button></h3>
+      <div class="alert alert-light">
+      <p><i><u> it has a thick atmosphere and a thick silicate shell around an iron core.
+        On the surface of planet there are bright signs of former geological activity, primarily volcanism.
+        There is almost no water in plenet.
+        It is the hottest planet: its surface temperature exceeds 400 °C.
+        The reason for this is the greenhouse effect in a dense atmosphere rich in carbon dioxide.
+        No reliable signs of modern endogenous geological activity have been found on planet,
+        but since it has no magnetic field to prevent the depletion of its existing atmosphere,
+        it suggests that its atmosphere is regularly replenished by volcanic eruptions.
+        Planet has no natural satellites.</u></i></p>
+      </div>
+
+        <button class="planet"><a href="Venus.html">go to planet</a></button>
+
+      <h3 id="planet03"><button class="planet3">it's a planet</button></h3>
+      <div class="alert alert-light">
+      <p><i><u>it is the largest and densest of the inner planets.
+        The planet has one natural satellite, which is the only large satellite of the terrestrial planets.
+        Among the planets of the terrestrial group, it is unique (first of all, it has a hydrosphere).
+        The planet's atmosphere is radically different from the atmospheres of other planets — it contains free oxygen.</u></i></p>
+      </div>
+
+        <button class="planet"><a href="Earth.html">go to planet</a></button>
+
+      <h3 id="planet04"><button class="planet4">it's a planet</h3>
+      <div class="alert alert-light">
+      <p><i><u>It has an atmosphere consisting mainly of carbon dioxide, with a surface pressure of 6.1 mbar.
+        There are volcanoes on its surface, the largest of which, Olympus, exceeds all terrestrial volcanoes in size,
+        reaching a height of 21.2 km. Rift depressions (Mariner valleys) testify to former tectonic activity.
+        Modern tectonic and volcanic activity on planet is not registered, but, according to some estimates,
+        Olympus last erupted no more than 2 million years ago.
+        The red color of the surface of planet is due to the large amount of iron oxide in its soil.
+        The planet has two satellites - Phobos and Deimos. It is assumed that they are captured asteroids.</u></i></p>
+      </div>
+
+        <button class="planet"><a href="Mars.html">go to planet</a></button>
+
+    </body>
+</html>
