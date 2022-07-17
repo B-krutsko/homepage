@@ -1,0 +1,59 @@
+body {
+  background-color: lightblue;
+  font-size:100%;
+  text-shadow: 2px 2px 8px #5F9EA0;
+}
+
+table {
+    background-color: LightSteelBlue;
+    width:100%;
+    color: Navy;
+    text-align: center;
+    border-style: solid;
+    border-color: White;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    color: DarkSlateGrey;
+    font-size:400%;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 2px 2px 8px #5F9EA0;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    color: DarkSlateGrey;
+    font-size: 250%;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 2px 2px 8px #5F9EA0;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    color: DarkSlateGrey;
+    font-size: 200%;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 2px 2px 8px #5F9EA0;
+  }
+  p {
+    text-transform: lowercase;
+    color: DarkSlateGrey;
+    font-size:120%;
+    font-weight: 50;
+    text-align: left;
+  }
+
+  tr {
+    height: 50px;
+  }
+  th {
+    height: 50px;
+    color: White;
+    font-weight: 22px;
+    text-transform: uppercase;
+    text-align: center;
+  }
